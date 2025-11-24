@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "C++23-Win32",
+            "name": "C++20 (Win32)",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -11,9 +11,37 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.26100.0",
-            "cStandard": "c17",
-            "cppStandard": "c++23",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
             "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
+            "name": "C++20 (Linux)",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "C++20 (macOS)",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "macos-clang-arm64"
         }
     ],
     "version": 4

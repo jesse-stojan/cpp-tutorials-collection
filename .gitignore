@@ -23,6 +23,10 @@
 *.ifc
 *.ixx
 
+# IntelliJ (CLion)
+.idea/*
+#TODO: Add in CLion configurations that'll actually be shared
+
 # Databases
 *.db
 *.db*
